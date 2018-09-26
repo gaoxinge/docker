@@ -17,6 +17,7 @@
     - [Docker 架构详解](https://blog.csdn.net/CloudMan6/article/details/70763952)
     - [Docker 组件如何协作？](https://blog.csdn.net/CloudMan6/article/details/70857585)
     - [最小的镜像](https://blog.csdn.net/CloudMan6/article/details/70992337)
+    - [base 镜像](https://blog.csdn.net/CloudMan6/article/details/71105101)
     
 ### other
 
