@@ -3,7 +3,7 @@
 - [Hypervisor](https://en.wikipedia.org/wiki/Hypervisor)
 - type1
   - microsoft Hyper-v
-  - VMware ESX/ESXi.
+  - VMware ESX/ESXi
 - type2
   - VMware Workstation
   - VMware Player
