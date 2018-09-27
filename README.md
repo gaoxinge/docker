@@ -20,8 +20,15 @@
     - [Docker 组件如何协作？](https://blog.csdn.net/CloudMan6/article/details/70857585)
     - [最小的镜像](https://blog.csdn.net/CloudMan6/article/details/70992337)
     - [base 镜像](https://blog.csdn.net/CloudMan6/article/details/71105101)
-    
+    - [镜像的分层结构](https://blog.csdn.net/CloudMan6/article/details/71159794)
+    - [构建镜像](https://blog.csdn.net/CloudMan6/article/details/71336283)
+    - [Dockerfile 构建镜像](https://blog.csdn.net/CloudMan6/article/details/71445478)
+    - [镜像的缓存特性](https://blog.csdn.net/CloudMan6/article/details/71600853)
+    - [调试 Dockerfile](https://blog.csdn.net/CloudMan6/article/details/72049313)
+    - [Dockerfile 常用指令](https://blog.csdn.net/CloudMan6/article/details/72353838)
+
 ## other
 
 - [1](https://github.com/fkdocker/docker/tree/master/1)
 - [2](https://github.com/fkdocker/docker/tree/master/2)
+- [3](https://github.com/fkdocker/docker/tree/master/3)
