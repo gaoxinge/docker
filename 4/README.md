@@ -1,0 +1,3 @@
+- 公有仓库
+- 私有仓库：insecure registries
+- 镜像：registry mirrors

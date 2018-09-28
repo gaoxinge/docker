@@ -26,9 +26,14 @@
     - [镜像的缓存特性](https://blog.csdn.net/CloudMan6/article/details/71600853)
     - [调试 Dockerfile](https://blog.csdn.net/CloudMan6/article/details/72049313)
     - [Dockerfile 常用指令](https://blog.csdn.net/CloudMan6/article/details/72353838)
-
+    - [镜像命名的最佳实践](https://blog.csdn.net/CloudMan6/article/details/72603130)
+    - [使用公共 Registry](https://blog.csdn.net/CloudMan6/article/details/72667956)
+    - [搭建本地 Registry](https://blog.csdn.net/CloudMan6/article/details/72722916)
+    - [Docker 镜像小结](https://blog.csdn.net/CloudMan6/article/details/72783603)
+    
 ## other
 
 - [1](https://github.com/fkdocker/docker/tree/master/1)
 - [2](https://github.com/fkdocker/docker/tree/master/2)
 - [3](https://github.com/fkdocker/docker/tree/master/3)
+- [4](https://github.com/fkdocker/docker/tree/master/4)
