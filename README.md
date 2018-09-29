@@ -30,6 +30,9 @@
     - [使用公共 Registry](https://blog.csdn.net/CloudMan6/article/details/72667956)
     - [搭建本地 Registry](https://blog.csdn.net/CloudMan6/article/details/72722916)
     - [Docker 镜像小结](https://blog.csdn.net/CloudMan6/article/details/72783603)
+    - [如何运行容器？](https://blog.csdn.net/CloudMan6/article/details/72811183)
+    - [两种进入容器的方法](https://blog.csdn.net/CloudMan6/article/details/72831143)
+    - [运行容器的最佳实践](https://blog.csdn.net/CloudMan6/article/details/72862262)
     
 ## other
 
@@ -37,3 +40,4 @@
 - [2](https://github.com/fkdocker/docker/tree/master/2)
 - [3](https://github.com/fkdocker/docker/tree/master/3)
 - [4](https://github.com/fkdocker/docker/tree/master/4)
+- [5](https://github.com/fkdocker/docker/tree/master/5)
