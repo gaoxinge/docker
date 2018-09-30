@@ -1,3 +1,9 @@
+## 创建
+
+```
+$ docker create xxx
+```
+
 ## 运行
 
 ```
@@ -27,9 +33,33 @@ $ docker exec -it 969fac2f0e41 bash
 $ docker stop fe39cc2ccc8b
 ```
 
+## 删除
+
+```
+$ docker rm xxx
+$ docker rm -v $(docker ps -a -q -f status=exited)
+```
+
 ## 查看
 
 ```
 $ docker ps
 $ docker ps -a
+```
+
+## 其他
+
+```
+$ docker stop xxx
+$ docker start xxx
+$ docker restart xxx
+```
+
+```
+$ docker pause xxx
+$ docker unpause xxx
+```
+
+```
+$ docker kill xxx
 ```

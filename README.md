@@ -33,6 +33,8 @@
     - [如何运行容器？](https://blog.csdn.net/CloudMan6/article/details/72811183)
     - [两种进入容器的方法](https://blog.csdn.net/CloudMan6/article/details/72831143)
     - [运行容器的最佳实践](https://blog.csdn.net/CloudMan6/article/details/72862262)
+    - [容器常用操作](https://blog.csdn.net/CloudMan6/article/details/72884463)
+    - [一张图搞懂容器所有操作](https://blog.csdn.net/CloudMan6/article/details/72911204)
     
 ## other
 
