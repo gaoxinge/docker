@@ -51,4 +51,6 @@
 
 ## web
 
-- [nginx + uwsgi + flask]()
+- [nginx + uwsgi]()
+- [nginx + guincorn]()
+- [apache + mod_wsgi]()
