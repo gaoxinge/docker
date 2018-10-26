@@ -1,1 +1,2 @@
 - [1](https://github.com/gaoxinge/docker/tree/master/web/nginx%20%2B%20uwsgi/1)
+- [2](https://github.com/gaoxinge/docker/tree/master/web/nginx%20%2B%20uwsgi/2)
