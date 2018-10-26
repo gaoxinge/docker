@@ -1,0 +1,7 @@
+- [Putting behind a full webserver](https://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html#putting-behind-a-full-webserver)
+- [【翻译】使用nginx作为反向代理服务器，uWSGI作为应用服务器来部署flask应用](https://www.cnblogs.com/pengsixiong/p/5453473.html)
+- [使用nginx+uWSGI部署flask应用](https://blog.csdn.net/litian9898/article/details/79066178)
+- [Centos7系统，Nginx+uwsgi+flask框架部署web应用](https://blog.csdn.net/woshizhiwu/article/details/78237921)
+- [Run Python Web Application in Docker using Nginx and uWsgi](https://www.novixys.com/blog/python-web-application-docker-nginx-uwsgi/)
+- [Minimal Python deployment on Docker with uWSGI](https://medium.com/@greut/minimal-python-deployment-on-docker-with-uwsgi-bc5aa89b3d35)
+- [How to do rapid prototyping with Flask, uWSGI, NGINX, and Docker on OpenShift](https://towardsdatascience.com/how-to-do-rapid-prototyping-with-flask-uwsgi-nginx-and-docker-on-openshift-f0ef144033cb)
