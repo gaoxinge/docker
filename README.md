@@ -39,6 +39,9 @@
     - [限制容器对CPU的使用](https://blog.csdn.net/CloudMan6/article/details/73195469)
     - [限制容器的 Block IO](https://blog.csdn.net/CloudMan6/article/details/73275235)
     - [实现容器的底层技术](https://blog.csdn.net/CloudMan6/article/details/73441688)
+    - [none 和 host 网络的适用场景](https://blog.csdn.net/CloudMan6/article/details/73490335)
+    - [学容器必须懂 bridge 网络](https://blog.csdn.net/CloudMan6/article/details/73610507)
+    - [如何自定义容器网络？](https://blog.csdn.net/CloudMan6/article/details/73718953)
     
 ## summary
 
