@@ -42,6 +42,10 @@
     - [none 和 host 网络的适用场景](https://blog.csdn.net/CloudMan6/article/details/73490335)
     - [学容器必须懂 bridge 网络](https://blog.csdn.net/CloudMan6/article/details/73610507)
     - [如何自定义容器网络？](https://blog.csdn.net/CloudMan6/article/details/73718953)
+    - [理解容器之间的连通性](https://blog.csdn.net/CloudMan6/article/details/73825691)
+    - [容器间通信的三种方式](https://blog.csdn.net/CloudMan6/article/details/73928932)
+    - [容器如何访问外部世界？](https://blog.csdn.net/CloudMan6/article/details/74157891)
+    - [外部世界如何访问容器？](https://blog.csdn.net/CloudMan6/article/details/74359616)
     
 ## summary
 
