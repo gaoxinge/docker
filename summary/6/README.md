@@ -20,14 +20,16 @@
 ## network
 
 ```
-busybox  busybox    httpd            busybox  busybox
-   |        |         |                  |      |
-----------------------------------------------------
-| none  |  host  |  bridge  |  my_net  |  my_net2  |
-|       |        | (docker0)|          |           | 
-----------------------------------------------------
-| null  |  host  |             bridge              |
-----------------------------------------------------
+busybox  busybox    httpd    httpd busybox busybox busybox
+   |        |         |        |      |      |       |
+----------------------------------------------------------
+|NIC/IP |NIC/IP  |NIC/IP    |NIC/IP      |NIC/IP |NIC/IP |
+----------------------------------------------------------
+| none  |  host  |  bridge  |  my_net    |  my_net2      |
+|       |        | (docker0)|            |               | 
+----------------------------------------------------------
+| null  |  host  |             bridge                    |
+----------------------------------------------------------
 ```
 
 ```
@@ -43,6 +45,12 @@ a89f78b94161        bridge              bridge              local
 801312bb18f2        my_net              bridge              local
 edc8c342ae01        my_net2             bridge              local
 8cecc96fb0b5        none                null                local
+```
+
+```
+> docker inspect bridge       # subnet: 172.17.0.0/16 | gateway: 172.17.0.1
+> docker inspect my_net       # subnet: 172.18.0.0/16 | gateway: 172.18.0.1/16
+> docker inspect my_net2      # subnet: 172.22.16.0/24 | gateway: 172.22.16.1
 ```
 
 - none：没有网络配置
@@ -65,8 +73,24 @@ edc8c342ae01        my_net2             bridge              local
 > docker run -it --network=my_net2 --ip 172.22.16.8 busybox      # 172.22.16.8/24
 ```
 
+- joined
+
 ```
-> docker inspect bridge                                          # subnet: 172.17.0.0/16 | gateway: 172.17.0.1
-> docker inspect my_net                                          # subnet: 172.18.0.0/16 | gateway: 172.18.0.1/16
-> docker inspect my_net2                                         # subnet: 172.22.16.0/24 | gateway: 172.22.16.1
+> docker run -d -it --network=my_net --name=web1 httpd           # 172.18.0.2/16
+> docker run -d -it --network=container busybox                  # 172.18.0.2/16
+```
+
+### 端口映射
+
+```
+> docker run -d -p 80 httpd
+CONTAINER ID        IMAGE               COMMAND              CREATED             STATUS              PORTS                   NAMES
+65fd3f5956ce        httpd               "httpd-foreground"   19 seconds ago      Up 17 seconds       0.0.0.0:32768->80/tcp   epic_lamport
+> docker port 65
+80/tcp -> 0.0.0.0:32768
+```
+
+```
+> curl 127.0.0.1:32768
+> curl 10.0.75.1:32768
 ```
