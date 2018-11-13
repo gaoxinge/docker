@@ -53,6 +53,11 @@ edc8c342ae01        my_net2             bridge              local
 > docker inspect my_net2      # subnet: 172.22.16.0/24 | gateway: 172.22.16.1
 ```
 
+```
+> docker network rm my_net
+> docker network rm my_net2
+```
+
 - none：没有网络配置
 
 ```
