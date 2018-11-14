@@ -46,6 +46,14 @@
     - [容器间通信的三种方式](https://blog.csdn.net/CloudMan6/article/details/73928932)
     - [容器如何访问外部世界？](https://blog.csdn.net/CloudMan6/article/details/74157891)
     - [外部世界如何访问容器？](https://blog.csdn.net/CloudMan6/article/details/74359616)
+    - [Docker 的两类存储资源](https://blog.csdn.net/CloudMan6/article/details/74590058)
+    - [Data Volume 之 bind mount](https://blog.csdn.net/CloudMan6/article/details/74896920)
+    - [docker managed volume](https://blog.csdn.net/CloudMan6/article/details/74999509)
+    - [如何共享数据？](https://blog.csdn.net/CloudMan6/article/details/75093632)
+    - [用 volume container 共享数据](https://blog.csdn.net/CloudMan6/article/details/75194862)
+    - [data-packed volume container](https://blog.csdn.net/CloudMan6/article/details/75331672)
+    - [volume 生命周期管理](https://blog.csdn.net/CloudMan6/article/details/75578915)
+  - 容器进阶知识
     
 ## summary
 
