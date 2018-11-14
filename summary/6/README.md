@@ -17,6 +17,58 @@
 - network：网卡，路由，IP
 - user：用户
 
+## 存储资源
+
+- 数据层：由storage driver管理
+  - 镜像层
+  - 容器层
+- volume
+  - bind mount
+    - docker managed volume
+  - host与container共享数据
+  - container与container共享数据
+    - 通过host共享
+    - 通过volume container共享
+    - 通过data-packed volume container共享
+
+### bind mount
+
+```
+> more D:\htdocs\index.html
+<html><body><h1>This is a file in host file system!</h1></body></html>
+> cat D:\htdocs\index.html
+<html><body><h1>This is a file in host file system!</h1></body></html>
+
+# 把host中的文件挂载（bind mount）到container中
+> docker run -d -p 80:80 -v /d/htdocs:/usr/local/apache2/htdocs httpd
+> docker run -d -p 80:80 -v D:/htdocs:/usr/local/apache2/htdocs httpd
+```
+
+### docker managed volume
+
+```
+> docker run -d -p 80:80 -v /usr/local/apache2/htdocs httpd
+21
+> docker inspect 21
+> docker volume ls
+f4
+> docker volume inspect f4
+```
+
+```
+> docker rm -v 21
+```
+
+```
+> docker rm 21
+> docker volume rm f4
+```
+
+### reference
+
+- [在windows10上使用docker哪些坑](https://segmentfault.com/a/1190000006799421)
+- [关于Docker目录挂载的总结](https://www.cnblogs.com/ivictor/p/4834864.html)
+
 ## network
 
 ```
