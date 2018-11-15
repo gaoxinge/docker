@@ -1,7 +1,7 @@
 ## command
 
 ```
-> docker-machine create -d hyperv -hyperv-virtial-switch "Primary Virutal Switch" manager
+> docker-machine create -d hyperv --hyperv-virtual-switch "Primary Virtual Switch" manager
 > docker-machine ls
 > docker-machine rm manager
 ```
