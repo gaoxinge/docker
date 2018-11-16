@@ -54,6 +54,8 @@
     - [data-packed volume container](https://blog.csdn.net/CloudMan6/article/details/75331672)
     - [volume 生命周期管理](https://blog.csdn.net/CloudMan6/article/details/75578915)
   - 容器进阶知识
+    - [Docker 最常用的监控方案](https://blog.csdn.net/CloudMan6/article/details/78174849)
+    - [监控利器 sysdig](https://blog.csdn.net/CloudMan6/article/details/78195500)
     
 ## summary
 
