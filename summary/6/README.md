@@ -151,3 +151,17 @@ CONTAINER ID        IMAGE               COMMAND              CREATED            
 > curl 127.0.0.1:32768
 > curl 10.0.75.1:32768
 ```
+
+### multi-host
+
+- libnetwork CNM
+  - sandbox
+  - endpoint
+  - network
+- native
+  - overlay
+  - macvlan
+- third-party
+  - flannel
+  - weave
+  - calico
