@@ -68,6 +68,11 @@
 
 ## linux
 
+- [菜鸟教程](http://www.runoob.com/linux/linux-tutorial.html)
+- [鸟哥的Linux私房菜：基础学习篇](https://legacy.gitbook.com/book/wizardforcel/vbird-linux-basic-4e/details)
+- [鸟哥的Linux私房菜：服务器架设篇](https://legacy.gitbook.com/book/wizardforcel/vbird-linux-server-3e/details)
+- [Linux工具快速教程](https://linuxtools-rst.readthedocs.io/zh_CN/latest/)
+
 ## web
 
 - [nginx + uwsgi](https://github.com/gaoxinge/docker/tree/master/web/nginx%20%2B%20uwsgi)
