@@ -60,6 +60,8 @@
     - [跨主机网络概述](https://blog.csdn.net/CloudMan6/article/details/76383702)
     - [一文搞懂各种 Docker 网络](https://blog.csdn.net/CloudMan6/article/details/78077695)
     - [如何实现跨 Docker 主机存储？](https://blog.csdn.net/CloudMan6/article/details/78092683)
+    - [日志管理之 Docker logs](https://blog.csdn.net/CloudMan6/article/details/78382632)
+    - [Docker 如何支持多种日志方案？](https://blog.csdn.net/CloudMan6/article/details/78405318)
 
 ## summary
 
