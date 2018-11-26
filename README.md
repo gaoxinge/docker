@@ -54,6 +54,10 @@
     - [data-packed volume container](https://blog.csdn.net/CloudMan6/article/details/75331672)
     - [volume 生命周期管理](https://blog.csdn.net/CloudMan6/article/details/75578915)
   - 容器进阶知识
+    - [安装 Docker Machine](https://blog.csdn.net/CloudMan6/article/details/75810234)
+    - [创建 Machine](https://blog.csdn.net/CloudMan6/article/details/76100816)
+    - [管理 Machine ](https://blog.csdn.net/CloudMan6/article/details/76223476)
+    - [跨主机网络概述](https://blog.csdn.net/CloudMan6/article/details/76383702)
 
 ## summary
 
