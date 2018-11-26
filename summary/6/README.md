@@ -22,7 +22,7 @@
 - 数据层：由storage driver管理
   - 镜像层
   - 容器层
-- volume
+- volume：由volume driver管理
   - bind mount
     - docker managed volume
   - host与container共享数据
@@ -30,6 +30,10 @@
     - 通过host共享
     - 通过volume container共享
     - 通过data-packed volume container共享
+  - multi-host
+    - Azure File Storage
+    - GlusterFS
+    - Rex-Ray
 
 ### bind mount
 
