@@ -95,3 +95,5 @@
 ## service discovery
 
 - [consul]()
+
+## service autonomy
