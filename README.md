@@ -94,7 +94,7 @@
 
 ## repository
 
-- [gitlab]()
+- [gitlab](https://github.com/gaoxinge/docker/tree/master/repository/gitlab)
 
 ## service
 
