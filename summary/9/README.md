@@ -3,8 +3,11 @@
 ```
 $ docker swarm init xxx
 $ docker swarm join-token worker
+$ docker swarm join-token manage
+$ docker node ls
+$ docker swarm leave -f
 ```
 
-```
-$ docker node ls
-```
+### reference
+
+- [Docker Swarm Cheatsheet](https://blog.programster.org/docker-swarm-cheatsheet)
