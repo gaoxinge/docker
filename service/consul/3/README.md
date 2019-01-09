@@ -13,4 +13,5 @@ $ docker run -d -P redis
 
 ## reference
 
+- [gliderlabs/registrator](https://hub.docker.com/r/gliderlabs/registrator/)
 - [单机使用Docker host网络安装consul和registrator](https://blog.csdn.net/gsying1474/article/details/51773391)
