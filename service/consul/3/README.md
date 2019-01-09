@@ -9,6 +9,9 @@ $ docker run -d -P redis
 ```
 
 ```
+$ docker run -d -h node1 --name node1 --restart=always -p 8300:8300 -p 8301:8301 -p 8301:8301/udp -p 8302:8302 -p 8302:8302/udp -p 8400:8400 -p 8500:8500 progrium/consul -server -bootstrap -advertise 10.0.75.1
+$ docker run -d --name registrator --net=host --volume=//var/run/docker.sock:/tmp/docker.sock gliderlabs/registrator consul://127.0.0.1:8500
+$ docker run -d -P redis
 ```
 
 ## reference
