@@ -64,6 +64,7 @@
     - [Docker 如何支持多种日志方案？](https://blog.csdn.net/CloudMan6/article/details/78405318)
 - 容器平台技术
   - 容器编排引擎
+    - [Docker Swarm 中最重要的概念](https://blog.csdn.net/CloudMan6/article/details/78553455)
 
 ## summary
 
