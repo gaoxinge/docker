@@ -72,6 +72,9 @@
     - [如何访问 Service？](https://blog.csdn.net/CloudMan6/article/details/78653680)
     - [神奇的 routing mesh](https://blog.csdn.net/CloudMan6/article/details/78679107)
     - [Service 之间如何通信？](https://blog.csdn.net/CloudMan6/article/details/78704529)
+    - [如何滚动更新 Service？](https://blog.csdn.net/CloudMan6/article/details/78722946)
+    - [Swarm 如何存储数据？](https://blog.csdn.net/CloudMan6/article/details/78745505)
+    - [验证 Swarm 数据持久性](https://blog.csdn.net/CloudMan6/article/details/78765008)
 
 ## summary
 
