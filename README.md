@@ -75,6 +75,9 @@
     - [如何滚动更新 Service？](https://blog.csdn.net/CloudMan6/article/details/78722946)
     - [Swarm 如何存储数据？](https://blog.csdn.net/CloudMan6/article/details/78745505)
     - [验证 Swarm 数据持久性](https://blog.csdn.net/CloudMan6/article/details/78765008)
+    - [replicated mode vs global mode](https://blog.csdn.net/CloudMan6/article/details/78787718)
+    - [用 Label 控制 Service 的位置](https://blog.csdn.net/CloudMan6/article/details/78805114)
+    - [如何配置 Health Check？](https://blog.csdn.net/CloudMan6/article/details/78827984)
 
 ## summary
 
