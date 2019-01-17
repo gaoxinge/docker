@@ -65,6 +65,13 @@
 - 容器平台技术
   - 容器编排引擎
     - [Docker Swarm 中最重要的概念](https://blog.csdn.net/CloudMan6/article/details/78553455)
+    - [如何创建 Swarm 集群？](https://blog.csdn.net/CloudMan6/article/details/78577422)
+    - [运行第一个 Service](https://blog.csdn.net/CloudMan6/article/details/78595361)
+    - [如何实现 Service 伸缩？](https://blog.csdn.net/CloudMan6/article/details/78616432)
+    - [Swarm 如何实现 Failover？](https://blog.csdn.net/CloudMan6/article/details/78635601)
+    - [如何访问 Service？](https://blog.csdn.net/CloudMan6/article/details/78653680)
+    - [神奇的 routing mesh](https://blog.csdn.net/CloudMan6/article/details/78679107)
+    - [Service 之间如何通信？](https://blog.csdn.net/CloudMan6/article/details/78704529)
 
 ## summary
 
