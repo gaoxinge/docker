@@ -79,6 +79,7 @@
     - [用 Label 控制 Service 的位置](https://blog.csdn.net/CloudMan6/article/details/78805114)
     - [如何配置 Health Check？](https://blog.csdn.net/CloudMan6/article/details/78827984)
     - [学习 Kubernetes 的 Why 和 How ](https://blog.csdn.net/CloudMan6/article/details/78954441)
+    - [5 秒创建 k8s 集群](https://blog.csdn.net/CloudMan6/article/details/78973949)
 
 ## summary
 
