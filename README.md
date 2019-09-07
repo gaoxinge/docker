@@ -80,6 +80,7 @@
     - [如何配置 Health Check？](https://blog.csdn.net/CloudMan6/article/details/78827984)
     - [学习 Kubernetes 的 Why 和 How ](https://blog.csdn.net/CloudMan6/article/details/78954441)
     - [5 秒创建 k8s 集群](https://blog.csdn.net/CloudMan6/article/details/78973949)
+    - [k8s 核心功能](https://blog.csdn.net/CloudMan6/article/details/78997613)
 
 ## summary
 
@@ -92,6 +93,7 @@
 - [7](https://github.com/fkdocker/docker/tree/master/summary/7)
 - [8](https://github.com/fkdocker/docker/tree/master/summary/8)
 - [9](https://github.com/fkdocker/docker/tree/master/summary/9)
+- [10](https://github.com/fkdocker/docker/tree/master/summary/10)
 
 ## web
 
