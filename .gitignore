@@ -1,3 +1,6 @@
 tomcat.*
+.idea
 .gradle
+out
+*.iml
 build
