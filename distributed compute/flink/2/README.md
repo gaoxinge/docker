@@ -1,0 +1,2 @@
+- [FLINK实例-WORDCOUNT详细步骤](https://www.cnblogs.com/ALittleMoreLove/archive/2018/08/09/9449992.html)
+- [Netcat for Windows](https://joncraton.org/blog/46/netcat-for-windows/)
