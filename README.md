@@ -96,6 +96,10 @@
 - [9](https://github.com/fkdocker/docker/tree/master/summary/9)
 - [10](https://github.com/fkdocker/docker/tree/master/summary/10)
 
+## repository
+
+- [gitlab](https://github.com/gaoxinge/docker/tree/master/repository/gitlab)
+
 ## web
 
 - [nginx](https://github.com/gaoxinge/docker/tree/master/web/nginx)
@@ -104,10 +108,6 @@
 - [go](https://github.com/gaoxinge/docker/tree/master/web/go)
 - [gin](https://github.com/gaoxinge/docker/tree/master/web/gin)
 - [java](https://github.com/gaoxinge/docker/tree/master/web/java)
-
-## repository
-
-- [gitlab](https://github.com/gaoxinge/docker/tree/master/repository/gitlab)
 
 ## service
 
