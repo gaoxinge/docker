@@ -9,3 +9,4 @@
 - [apache/curator](https://github.com/apache/curator)
 - [zookeeper原生API做java客户端](https://www.cnblogs.com/520playboy/p/6384594.html)
 - [Zookeeper的java客户端API使用方法（五）](https://blog.csdn.net/jiuqiyuliang/article/details/56012027)
+- [阿里巴巴为什么不用ZooKeeper做服务发现？](https://yq.aliyun.com/articles/599997)
