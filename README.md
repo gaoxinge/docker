@@ -111,12 +111,11 @@
 
 ## service
 
-- [zookeeper](https://github.com/gaoxinge/docker/tree/master/service/zookeeper)
 - [consul](https://github.com/gaoxinge/docker/tree/master/service/consul)
 - [etcd](https://github.com/gaoxinge/docker/tree/master/service/etcd)
-- [zuul](https://github.com/gaoxinge/docker/tree/master/service/zuul)
-- [eureka](https://github.com/gaoxinge/docker/tree/master/service/eureka)
+- [zookeeper](https://github.com/gaoxinge/docker/tree/master/service/zookeeper)
 - [nacos](https://github.com/gaoxinge/docker/tree/master/service/nacos)
+- [eureka](https://github.com/gaoxinge/docker/tree/master/service/eureka)
 
 ## distributd compute
 
