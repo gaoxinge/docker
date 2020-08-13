@@ -6,6 +6,8 @@
   - [ZooKeeper学习总结 第二篇：ZooKeeper深入探讨](https://www.cnblogs.com/leocook/p/zk_1.html)
 - [Zookeeper教程](https://www.w3cschool.cn/zookeeper/)
 - [可能是全网把 ZooKeeper 概念讲的最清楚的一篇文章](https://zhuanlan.zhihu.com/p/44731983)
+- [面试题：Zookeeper的选举机制](https://juejin.im/post/6844903844481073166)
+- [Zookeeper选主流程](https://www.jianshu.com/p/75e48405d678)
 - [阿里巴巴为什么不用ZooKeeper做服务发现？](https://yq.aliyun.com/articles/599997)
 - [zookeeper原生API做java客户端](https://www.cnblogs.com/520playboy/p/6384594.html)
 - [Zookeeper的java客户端API使用方法（五）](https://blog.csdn.net/jiuqiyuliang/article/details/56012027)
