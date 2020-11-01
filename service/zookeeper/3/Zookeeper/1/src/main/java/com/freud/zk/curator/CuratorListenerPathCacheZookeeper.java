@@ -3,11 +3,13 @@ package com.freud.zk.curator;
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
+import org.apache.curator.framework.recipes.cache.PathChildrenCache;
+import org.apache.curator.framework.recipes.cache.PathChildrenCacheEvent;
+import org.apache.curator.framework.recipes.cache.PathChildrenCacheListener;
 import org.apache.curator.retry.ExponentialBackoffRetry;
 import org.apache.zookeeper.CreateMode;
-import org.apache.zookeeper.data.Stat;
 
-public class CuratorNormalZookeeper {
+public class CuratorListenerPathCacheZookeeper {
     private static final int SECOND = 1000;
 
     public static void main(String[] args) throws Exception {
@@ -22,8 +24,28 @@ public class CuratorNormalZookeeper {
         client.start();
         System.out.println("Server connected...");
 
-        client.getCuratorListenable().addListener((curatorFramework, curatorEvent) -> System.out.println("Curator framework operations: " + curatorEvent.getType()));
-        client.getConnectionStateListenable().addListener((curatorFramework, connectionState) -> System.out.println("Connection state change to: " + connectionState.name()));
+        PathChildrenCache pathCache = new PathChildrenCache(client, root, true);
+        pathCache.start();
+        pathCache.getListenable().addListener(new PathChildrenCacheListener() {
+            @Override
+            public void childEvent(CuratorFramework client, PathChildrenCacheEvent event) throws Exception {
+                switch (event.getType()) {
+                    case INITIALIZED:
+                    case CONNECTION_LOST:
+                    case CONNECTION_RECONNECTED:
+                    case CONNECTION_SUSPENDED:
+                        System.out.println("[Callback]Event [" + event.getType().toString() + "] ");
+                        break;
+                    case CHILD_ADDED:
+                    case CHILD_REMOVED:
+                    case CHILD_UPDATED:
+                        System.out.println("[Callback]Event [" + event.getType().toString() + "] Path [" + event.getData().getPath() + "] data change to: " + new String(event.getData().getData()));
+                        break;
+                    default:
+                        System.out.println("[Callback]Event [Error] ");
+                }
+            }
+        });
         System.out.println("Listener added success...");
 
         if (client.checkExists().forPath(path) == null) {
@@ -36,24 +58,8 @@ public class CuratorNormalZookeeper {
         }
 
         if (client.checkExists().forPath(path) != null) {
-            Stat stat = new Stat();
-            System.out.println("Read from node [" + path + "] data: " + new String(client.getData().storingStatIn(stat).forPath(path)));
-            System.out.println("\tversion: " + stat.getVersion());
-            System.out.println("\tczxid: " + stat.getCzxid());
-            System.out.println("\taversion: " + stat.getAversion());
-            System.out.println("\tmzxid: " + stat.getMzxid());
-        }
-        if (client.checkExists().forPath(path) != null) {
             client.setData().forPath(path, dataAgain.getBytes());
             System.out.println("Set data to node [" + path + "] data: " + dataAgain);
-        }
-        if (client.checkExists().forPath(path) != null) {
-            Stat stat = new Stat();
-            System.out.println("Read from node [" + path + "] data: " + new String(client.getData().storingStatIn(stat).forPath(path)));
-            System.out.println("\tversion: " + stat.getVersion());
-            System.out.println("\tczxid: " + stat.getCzxid());
-            System.out.println("\taversion: " + stat.getAversion());
-            System.out.println("\tmzxid: " + stat.getMzxid());
         }
 
         if (client.checkExists().forPath(path2) != null) {
@@ -65,6 +71,7 @@ public class CuratorNormalZookeeper {
             System.out.println("Delete node [" + root + "] use recursion.");
         }
 
+        pathCache.close();
         client.close();
         System.out.println("Server closed...");
     }
