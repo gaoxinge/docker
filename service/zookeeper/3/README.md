@@ -12,6 +12,7 @@
 - [zookeeper原生API做java客户端](https://www.cnblogs.com/520playboy/p/6384594.html)
 - [Zookeeper的java客户端API使用方法（五）](https://blog.csdn.net/jiuqiyuliang/article/details/56012027)
 - [使用java操作zookeeper(五)](https://blog.csdn.net/qq_34021712/article/details/82872186)
+- [Zookeeper](https://www.hifreud.com/#month_2017_January)
 - [apache/zookeeper](https://github.com/apache/zookeeper)
 - [sgroschupf/zkclient](https://github.com/sgroschupf/zkclient)
 - [apache/curator](https://github.com/apache/curator)
