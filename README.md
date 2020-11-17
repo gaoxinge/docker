@@ -95,6 +95,15 @@
 - [9](https://github.com/fkdocker/docker/tree/master/summary/9)
 - [10](https://github.com/fkdocker/docker/tree/master/summary/10)
 
+## reference
+
+- docker
+  - [一篇不一样的docker原理解析](https://zhuanlan.zhihu.com/p/22382728)
+  - [Docker原理与核心概念](https://juejin.im/post/6844904039180681229)
+  - [Docker核心技术与实现原理](https://draveness.me/docker/)
+- k8s
+  - [谈Kubernetes的架构设计与实现原理](https://draveness.me/understanding-kubernetes/)
+
 ## repository
 
 - [gitlab](https://github.com/gaoxinge/docker/tree/master/repository/gitlab)
