@@ -80,3 +80,40 @@ $ exit
 
 > kubectl delete service -l run=kubernetes-bootcamp
 ```
+
+## Scale up your app
+
+```
+> kubectl get deployments
+> kubectl get pods
+> kubectl scale deployments/kubernetes-bootcamp --replicas=4
+> kubectl get deployments
+> kubectl get deployments -o wide
+> kubectl get pods -o wide
+
+> kubectl get deployments
+> kubectl get pods
+> kubectl scale deployments/kubernetes-bootcamp --replicas=2
+> kubectl get deployments
+> kubectl get deployments -o wide
+> kubectl get pods -o wide
+
+> export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -ogo-template='{{(index .spec.ports 0).nodePort}}')
+> echo $(minikube ip)
+> echo $NODE_PORT
+> curl $(minikube ip):$NODE_PORT
+```
+
+## Update your app
+
+```
+> kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2
+> export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -ogo-template='{{(index .spec.ports 0).nodePort}}')
+> curl $(minikube ip):$NODE_PORT
+> kubectl rollout status deployments/kubernetes-bootcamp
+
+> kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=gcr.io/google-samples/kubernetes-bootcamp:v10
+> kubectl rollout status deployments/kubernetes-bootcamp
+> kubectl rollout undo deployments/kubernetes-bootcamp
+> kubectl rollout status deployments/kubernetes-bootcamp
+```
