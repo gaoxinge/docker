@@ -98,11 +98,35 @@
 ## reference
 
 - docker
-  - [一篇不一样的docker原理解析](https://zhuanlan.zhihu.com/p/22382728)
-  - [Docker原理与核心概念](https://juejin.im/post/6844904039180681229)
-  - [Docker核心技术与实现原理](https://draveness.me/docker/)
+  - article
+    - [一篇不一样的docker原理解析](https://zhuanlan.zhihu.com/p/22382728)
+    - [Docker原理与核心概念](https://juejin.im/post/6844904039180681229)
+    - [Docker核心技术与实现原理](https://draveness.me/docker/)
+  - docker
+    - [jpetazzo/dind](https://github.com/jpetazzo/dind)
+    - [rancher/os](https://github.com/rancher/os)
 - k8s
-  - [谈Kubernetes的架构设计与实现原理](https://draveness.me/understanding-kubernetes/)
+  - article
+    - [谈Kubernetes的架构设计与实现原理](https://draveness.me/understanding-kubernetes/)
+  - k*s
+    - [k0sproject/k0s](https://github.com/k0sproject/k0s)
+    - [rancher/k3s](https://github.com/rancher/k3s)
+    - [derailed/k9s](https://github.com/derailed/k9s)
+  - distribution
+    - [rancher/k3s](https://github.com/rancher/k3s)
+    - [derailed/k9s](https://github.com/derailed/k9s)
+  - os
+    - [rancher/k3os](https://github.com/rancher/k3os)
+  - docker
+    - [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind)
+    - [rancher/k3d](https://github.com/rancher/k3d)
+  - deploy
+    - [kubernetes/minikube](https://github.com/kubernetes/minikube)
+    - [kubernetes/kubeadm](https://github.com/kubernetes/kubeadm)
+    - [ubuntu/microk8s](https://github.com/ubuntu/microk8s)
+    - [rancher/k3s](https://github.com/rancher/k3s)
+  - dashboard
+    - [kubernetes/dashboard](https://github.com/kubernetes/dashboard)
 
 ## repository
 
