@@ -113,8 +113,8 @@
     - [rancher/k3s](https://github.com/rancher/k3s)
     - [derailed/k9s](https://github.com/derailed/k9s)
   - distribution
+    - [k0sproject/k0s](https://github.com/k0sproject/k0s)
     - [rancher/k3s](https://github.com/rancher/k3s)
-    - [derailed/k9s](https://github.com/derailed/k9s)
   - os
     - [rancher/k3os](https://github.com/rancher/k3os)
   - docker
