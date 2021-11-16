@@ -108,7 +108,7 @@
 - k8s
   - article
     - [谈Kubernetes的架构设计与实现原理](https://draveness.me/understanding-kubernetes/)
-  - k*s
+  - k\*s
     - [k0sproject/k0s](https://github.com/k0sproject/k0s)
     - [rancher/k3s](https://github.com/rancher/k3s)
     - [derailed/k9s](https://github.com/derailed/k9s)
@@ -127,6 +127,11 @@
     - [rancher/k3s](https://github.com/rancher/k3s)
   - dashboard
     - [kubernetes/dashboard](https://github.com/kubernetes/dashboard)
+- operator
+  - [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime)
+  - [kubernetes-sigs/kubebuilder-declarative-pattern](https://github.com/kubernetes-sigs/kubebuilder-declarative-pattern)
+  - [kubernetes-sigs/kubebuilder](https://github.com/kubernetes-sigs/kubebuilder)
+  - [operator-framework/operator-sdk](https://github.com/operator-framework/operator-sdk)
 
 ## repository
 
