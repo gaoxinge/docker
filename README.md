@@ -127,6 +127,8 @@
     - [rancher/k3s](https://github.com/rancher/k3s)
   - dashboard
     - [kubernetes/dashboard](https://github.com/kubernetes/dashboard)
+- package
+  - [helm/helm](https://github.com/helm/helm)
 - operator
   - [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime)
   - [kubernetes-sigs/kubebuilder-declarative-pattern](https://github.com/kubernetes-sigs/kubebuilder-declarative-pattern)
