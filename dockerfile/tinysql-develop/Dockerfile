@@ -2,6 +2,7 @@ FROM ubuntu
 
 RUN apt update
 RUN apt install -y wget 
+RUN apt install -y build-essential
 RUN apt install -y mysql-client
 RUN apt install -y openssh-server
 RUN mkdir /var/run/sshd
